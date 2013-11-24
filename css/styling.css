@@ -1,0 +1,58 @@
+.bBox{
+	background: #F2F2F2;
+	border-radius: 3.8px;
+	margin-top: 20px;
+	padding: 0 15px 15px 15px;
+	word-wrap: break-word;
+	height: 200px;
+	overflow-y: hidden;
+	position:relative
+}
+.bottom{
+	bottom: 0;
+	position:absolute;
+}
+
+/* The hidden elements that will show on hover */
+.pic, .tags{
+	display: none;
+}
+
+/*****************************/
+
+/* Categories */
+	.classFilters li{
+		height: 200px!important;
+	}
+	.filterButtons{
+		padding-left: 1px!important;
+	}
+		/* Styles */
+		.style_general{
+			background: #3498db!important;
+		}
+		.style_tech{
+			background: #9b59b6!important;
+		}
+		.style_js{
+			background: #f39c12!important;
+		}
+		.style_asp{
+			background: #e74c3c!important;
+		}
+		.style_SQL{
+			background: #7f8c8d!important;
+		}
+		.style_css{
+			background: #1abc9c!important;
+		}
+		.style_python{
+			background: #27ae60!important;
+		}
+		/* /Styles */
+
+/* /Categories */
+
+footer{
+	padding-top: 200px;
+}

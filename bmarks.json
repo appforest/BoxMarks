@@ -1,0 +1,100 @@
+{
+
+	"bmarks":[
+
+		{
+		"name":"ASP Snippets",
+		"xurl":"http://aspsnippets.com/",
+		"descr":"ASP/C#/AJAX/jQuery... Snippets",
+		"tags":"THETAS",
+		"category":"asp",
+		"pic":"thePICurlurl"
+		},
+
+
+		{
+		"name":"GitHub",
+		"xurl":"https://github.com/appforest/BoxMarks",
+		"descr":"This project's GitHub",
+		"tags":"BoxMarks",
+		"category":"general",
+		"pic":"thePICurl"
+		},
+
+		{
+		"name":"NodeBots",
+		"xurl":"http://nodebots.io/",
+		"descr":"NodeJS + Robots!",
+		"tags":"js, nodejs, robotics",
+		"category":"js",
+		"pic":"thePICurl"
+		},
+		{
+		"name":"SQLite",
+		"xurl":"http://www.sqlite.org/",
+		"descr":"Self-contained databases!",
+		"tags":"SQL, databases",
+		"category":"SQL",
+		"pic":"thePICurl"
+		},
+
+		{
+		"name":"Udacity",
+		"xurl":"https://www.udacity.com/",
+		"descr":"Free python, web, computer science... courses",
+		"tags":"learning",
+		"category":"general",
+		"pic":"thePICurl"
+		},
+
+
+		{
+		"name":"Mashable",
+		"xurl":"http://mashable.com",
+		"descr":"Tech news",
+		"tags":"news, tech",
+		"category":"tech",
+		"pic":"thePICurl"
+		},
+		
+		{
+		"name":"DropDown SQL Binding",
+		"xurl":"http://www.ezineasp.net/post/ASP-Net-DropDownList-SQL-Datasource-Databinding.aspx",
+		"descr":"ASP.Net DropDownList SQL Datasource Databinding",
+		"tags":"asp.net, SQL",
+		"category":"asp",
+		"pic":"thePICurl"
+		},
+
+		{
+		"name":"Codrops",
+		"xurl":"http://tympanus.net/codrops/",
+		"descr":"CSS - Web Design",
+		"tags":"css",
+		"category":"css",
+		"pic":"thePICurl"
+		},
+		
+		{
+		"name":"Django",
+		"xurl":"https://www.djangoproject.com/",
+		"descr":"Python web framework",
+		"tags":"python, web debelopment",
+		"category":"python",
+		"pic":"thePICurl"
+		},
+		{
+		"name":"Flat UI Colors",
+		"xurl":"http://flatuicolors.com/",
+		"descr":"Flat UI Colors",
+		"tags":"css, colors",
+		"category":"css",
+		"pic":"thePICurl"
+		}
+
+
+	]
+
+}
+
+
