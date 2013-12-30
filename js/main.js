@@ -12,13 +12,17 @@ $(document).ready(function() {
  	$.getJSON("bmarks.json",function(data){
  		// The categories will be stored inside the 'category' array
  		var category=[];
+ 		var uniqueCat=[];
  		// Iterating inside the Json file to get the category data
  		for(site in data.bmarks){
  			// The data is pushed to the 'category' array
  			category.push(data.bmarks[site].category);
  		}
- 		// Getting -each- -unique- value from the 'category' array
- 		$.each($.unique(category), function(index, val){
+ 		// Getting each unique value from the 'category' array
+ 		$.each(category, function(index, val){
+			if($.inArray(val, uniqueCat) === -1) uniqueCat.push(val);
+		});
+ 		$.each($.unique(uniqueCat), function(index, val){
 			// Creating the buttons that will filter the bookmark boxes [TO DO: Toggle event so when the user clicks the button again the whole content is shown again]
 			// Giving each button the same background color as the bookmark box
  			$("#classFilters").append('<li class="filterButtons"><a class="style_'+val+' filter_'+val+'">'+val+'</a></li>')
