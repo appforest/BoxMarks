@@ -25,12 +25,12 @@ $(document).ready(function() {
  		$.each($.unique(uniqueCat), function(index, val){
 			// Creating the buttons that will filter the bookmark boxes [TO DO: Toggle event so when the user clicks the button again the whole content is shown again]
 			// Giving each button the same background color as the bookmark box
- 			$("#classFilters").append('<li class="filterButtons"><a class="style_'+val+' filter_'+val+'">'+val+'</a></li>')
+ 			$("#classFilters").append('<li><button class="style_'+val+' filter_'+val+' filterButtons">'+val+'</button></li>')
  			// The filtering
  			$(".filter_"+val+"").click(function(){
- 				$(".bBox").css('display', 'none').filter(".cat_"+val+"").css('display', '');
+ 				$(".bBox").css('display', 'none').filter(".cat_"+val+"").css({display: ''});
  			});
- 			$(".home").click(function(){
+ 			$("#title").click(function(){
  				$(".bBox").css('display','');
  			});
  		});
